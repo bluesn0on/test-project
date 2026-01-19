@@ -41,15 +41,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     margin-bottom: 200px;
 }
 
-#maintext {
+#maintext1 {
     position: absolute;
     font-size: 9em;
     color: #fff;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, .2);
+}
+#maintext2 {
+    position: relative;
+    padding-top: 300px;
+    font-size: 9em;
+    color: #fff;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, .2);
+}
+
+#grass {
+    padding-bottom: 100px;
 }
 
 .toppage img {
@@ -62,18 +73,37 @@ header {
 
 .content {
     position: relative;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     background-color: #00364b;
-    padding: 100px;
+    color: #fff;
+    padding: 150px;
 }
 
-.content h1 {
-    font-size: 3em;
-    color: #fff;
-    margin-bottom: 10px;
+#checkout {
+    position: absolute;
+    top: 50px;
 }
 
-.content p {
-    font-size: 1em;
-    color: #fff;
-    font-weight: 300;
+.containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.song {
+    margin-top: 10px;
 }
